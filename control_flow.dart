@@ -1,8 +1,8 @@
-import 'dart:io';
+import 'dart:io'; //This it allow input / output operations.
 
-void main() {
-  print("Enter a number:");
-  double number = double.parse(stdin.readLineSync()!);
+void main() { // Entry to the program.
+  print("Enter a number:"); // The program starts by asking for the user's input.
+  double number = double.parse(stdin.readLineSync()!);  // This line of code allows the user's input to be stored in a variable.
 
   if (number > 10) {
     print("Your number is greater than 10");
